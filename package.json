@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "postbuild": "next-on-netlify"
   },
   "dependencies": {
     "@compound-finance/compound-js": "^0.2.8",
