@@ -1,7 +1,7 @@
 import Compound from '@compound-finance/compound-js'// in Node.js
 
 // Infura Provider URL
-const provider  = process.env.infuraMainnetURL
+const provider  = 'https://mainnet.infura.io/v3/32e05464de764ee99ba990ee831eb0c1'
 
 // Get the address Comptroller
 const comptroller = Compound.util.getAddress(Compound.Comptroller)
